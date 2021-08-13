@@ -1,0 +1,72 @@
+nav {
+    background-color:#f6f5f5;
+    position:absolute;
+}
+
+.bra{
+    height:200px;
+    width: 250px;
+}
+
+.btn{
+    color: #E2703A;
+}
+
+.btn:hover{
+    background-color: #070D59;
+}
+
+.homestock{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top: 300px;
+    left: 15%;
+}
+
+.dr:hover{
+    background-color: #070D59;
+    color: whitesmoke;
+}
+
+.btit{
+    position: relative;
+    left: 65%;
+    width: 300px;
+}
+
+@media screen and (max-width:1000px){
+    .btit{
+        position: relative;
+        top: 400px;
+        left: 15%;
+        width: 80%;
+    }
+}
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+.testimonials {
+	width: 100%;
+	text-align: center;
+	background-color:  #070D59;
+    color: #fff;
+    height:78%;
+    top: 150px;
+    position: relative;
+}
+
+@media screen and (max-width:1000px){
+    .testimonials{
+        top: 500px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .testimonials{
+        top: 500px;
+        left:8%;
+    }
+}
